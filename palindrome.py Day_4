@@ -1,0 +1,7 @@
+text = input("Enter a Word : ")
+text = text.lower()
+rev = text[::-1]
+if text == rev:
+    print("It is a palindrome")
+else:
+    print("It is not a palindrome")
